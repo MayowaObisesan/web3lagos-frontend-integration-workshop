@@ -9,15 +9,13 @@ import {
 } from 'wagmi/chains';
 
 export const config = getDefaultConfig({
-  appName: 'RainbowKit App',
-  projectId: 'YOUR_PROJECT_ID',
+  appName: 'Web3Lagos Frontend Integration',
+  projectId: '7f49c7e89e54528522eef8334c58506e', // For walletConnect integration
   chains: [
-    mainnet,
-    polygon,
-    optimism,
-    arbitrum,
+    sepolia,
     base,
-    ...(process.env.NEXT_PUBLIC_ENABLE_TESTNETS === 'true' ? [sepolia] : []),
+    mainnet,
+    polygon
   ],
   ssr: true,
 });

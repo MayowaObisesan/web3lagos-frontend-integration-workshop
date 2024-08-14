@@ -1,3 +1,12 @@
+# FOR SMART CONTRACT INTEGRATION
+
+CONTRACT ADDRESS: 0x661792716fcF938E63E7921212a145d11D9691D0
+
+1. ABI - Application Binary Interface
+2. Contract Address - 0x...
+    - (Must be deployed to the chain you are interacting with.)
+    - You get the ABI from the contract Address.
+
 This is a [RainbowKit](https://rainbowkit.com) + [wagmi](https://wagmi.sh) + [Next.js](https://nextjs.org/) project bootstrapped with [`create-rainbowkit`](/packages/create-rainbowkit).
 
 ## Getting Started
